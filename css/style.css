@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('/images/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.containe{
+    width: 1140px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.digital-clock{
+    display: flex;
+    position: relative;
+}
+.single-clock-item{
+    background-color: aliceblue;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.single-clock-item h2{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.single-clock-item p {
+    padding: 10px 30px;
+    background: #673ab7;
+    color: #fff;
+}
+.single-text {
+    background: #673ab7;
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+    color: #fff;
+    padding: 9px 10px 10px 10px;
+    text-transform: uppercase;
+}
